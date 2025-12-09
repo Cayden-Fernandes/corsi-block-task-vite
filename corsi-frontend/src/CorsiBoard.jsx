@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./corsi.css";
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "https://corsi-block-task-vite.onrender.com/api";
 
 // Generate 9 random positions (as percentages) with a minimum spacing
 function generatePositions() {
