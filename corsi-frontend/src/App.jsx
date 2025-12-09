@@ -3,7 +3,7 @@ import CandidateForm from "./CandidateForm";
 import CorsiBoard from "./CorsiBoard";
 import "./corsi.css";
 
-const API_BASE = "https://corsi-block-task-vite.onrender.com/api";
+const API_BASE = "https://corsi-block-task-vite.onrender.com";
 
 function App() {
   const [view, setView] = useState("details"); // 'details' | 'menu' | 'task' | 'instructions' | 'db'

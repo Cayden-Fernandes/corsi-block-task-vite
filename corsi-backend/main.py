@@ -17,6 +17,7 @@ app = FastAPI(
 
 # CORS – allow your React dev server
 origins = [
+    "https://corsi-block-task-vite-frontend.onrender.com",
     "http://localhost:5173",  # Vite dev
     "http://localhost:3000",  # CRA, if ever used
 ]
