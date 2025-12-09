@@ -3,6 +3,7 @@ import CandidateForm from "./CandidateForm";
 import CorsiBoard from "./CorsiBoard";
 import "./corsi.css";
 
+// URL should be injected using Environment
 const API_BASE = "https://corsi-block-task-vite.onrender.com/api";
 
 function App() {
